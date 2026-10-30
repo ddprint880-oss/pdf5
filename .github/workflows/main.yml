@@ -31,7 +31,7 @@ jobs:
 
     - name: Build Capacitor Android
       run: |
-        npx cap init --name "نص - أدوات PDF" --bundle-id com.ddprint.pdfapp --web-dir www
+        npx cap init pdfapp com.alprint.pdfapp --web-dir www
         npx cap add android
         npx cap sync android
 
